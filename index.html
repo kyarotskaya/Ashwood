@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ashwood</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="header" class="container-fluid">
+        <div id="main" class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <img src="images/Logo.svg" alt="Logo">
+                </div>
+                <div class="col-md-5 ml-md-auto">
+                    <div class="row align-items-center">
+                            <span id="choose">Выбрать дилера:</span>
+                            <div class="dropdown">
+                                <button class="btn btn-default" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="true">
+                                    <img src="images/select_mazda.png">
+                                    Атлант-М Холпи
+                                    <div class="arrow">
+                                        <img src="images/select.png" alt="" >
+                                    </div>
+                                    
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#" data-value="action"><img src="images/select_mazda.png">Атлант-М на Машиностроителей</a></li>
+                                    <li><a href="#" data-value="another action"><img src="images/select_mazda.png">Атлант-М Сухарево</a></li>
+                                    <li><a href="#" data-value="something else here"><img src="images/select_mazda.png">Атлант-М Уручье</a></li>
+                                    <li><a href="#" data-value="separated link"><img src="images/select_mazda.png">Атлант-М на Независимости</a>
+                                    </li>
+                                    <li><a href="#" data-value="separated link"><img src="images/select_mazda.png">Атлант-М Боровая</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    
+                    <!-- <select  class="custom-select">
+                        <option value="" data-content="<img src='images/select_mazda.png'>">Атлант-М Холпи</option>
+                        <option value="">Атлант-М на Машиностроителей</option>
+                        <option value="">Атлант-М Сухарево</option>
+                        <option value="">Атлант-М Уручье</option>
+                        <option value="">Атлант-М на Независимости</option>
+                        <option value="">Атлант-М Боровая Ford</option>
+                    </select> -->
+                </div>
+                <div class="col-md-3">
+                    <div class="phone-number">+375 (17) 201-01-01</div>
+                    <div>г. Минск дер. Боровая, д. 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="container-fluid">
+        <div class="row">
+            <div id="main-image" class="col-lg-12 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 ml-md-5">
+                        <div id="date">
+                            20-22 января
+                        </div>
+                        <h1>
+                            Большая распродажа <br>в <span>Атлант-М</span>
+                        </h1>
+                    </div>
+                    <div id="discount" class="col-md-3 ml-md-auto">
+                        <h2>скидки до</h2>
+                        <span>сервис</span>
+                        <span>запчасти</span>
+                        <span>аксессуары</span>
+                    </div>
+                </div>
+                <div id="image-bottom-row" class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="days3">
+                            <span>Только 3 дня!</span>
+                            <span>Специальные цены </span>
+                            <span>у дилеров Атлант-М</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="byn700">
+                            <span>Выгода до </span>
+                            <span>7000 BYN</span>
+                            <span>на новые автомобили</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/newcar.svg" alt="newcar">
+                    <p>Новые автомобили</p>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/oldcar.svg" alt="newcar">
+                    <p>Автомобили с пробегом</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/credit.svg" alt="newcar">
+                    <p>Финансовый сервис</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/setvice.svg" alt="newcar">
+                    <p>Услуги сервиса</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/parts.svg" alt="newcar">
+                    <p>Запасные части</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="icons">
+                    <img src="images/wheel.svg" alt="newcar">
+                    <p>Дополнительное оборудование</p>
+                </div>
+            </div>
+        </div>
+        <div class="brand-heading col-md-12">
+            Отобразить предложения по бренду
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="col-md-3">
+                <a href="#volk" class="active" data-toggle="tab" role="tab" aria-controls="home" aria-expanded="true">
+                    <div class="tab-content">
+                        <div class="logo">
+                            <img src="images/Volkswagen.svg" alt="">
+                        </div>
+                        <div class="tab-text">
+                            <span>Volkswagen</span><br>
+                            <span>7 спецпредложений</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-3">
+                <a href="#ford" data-toggle="tab" aria-expanded="false">
+                    <div class="tab-content">
+                        <div class="logo">
+                            <img src="images/ford.svg" alt="">
+                        </div>
+                        <div class="tab-text">
+                            <span>Ford</span><br>
+                            <span>12 спецпредложений</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-3">
+                <a href="#mazda" data-toggle="tab" aria-expanded="true">
+                    <div class="tab-content">
+                        <div class="logo">
+                            <img src="images/mazda.svg" alt="">
+                        </div>
+
+                        <div class="tab-text">
+                            <span>Mazda</span><br>
+                            <span>8 спецпредложений</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-3">
+                <a href="#kia" data-toggle="tab" aria-expanded="false">
+                    <div class="tab-content">
+                        <div class="logo">
+                            <img src="images/kia.svg" alt="">
+                        </div>
+
+                        <div class="tab-text">
+                            <span>KIA</span><br>
+                            <span>14 спецпредложений</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade show active" id="volk" role="tabpanel" aria-labelledby="volk-tab">
+                <div class="row">
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Идеальный момент для покупки. Распродажа склада Volkswagen. </span>
+                            </p>
+                            <p>
+                                Volkswagen в Беларуси объявляет большую распродажу склада автомобилей 2016 года выпуска! Только в январе действует выгода
+                                до 2600 рублей на модели Polo, Jetta и Tiguan.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Грандиозная распродажа склада 2016 года выпуска! </span>
+                            </p>
+                            <p>
+                                Такой распродажи у марки Ford в Беларуси не было давно! Автоцентр «Атлант-М Боровая» предлагает автомобили Ford 2016 года
+                                выпуска по беспрецедентно низким ценам.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                </div>
+                <!-- End row  -->
+            </div>
+            <div class="tab-pane fade" id="ford">
+                <div class="row">
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Идеальный момент для покупки. Распродажа склада Volkswagen. </span>
+                            </p>
+                            <p>
+                                Volkswagen в Беларуси объявляет большую распродажу склада автомобилей 2016 года выпуска! Только в январе действует выгода
+                                до 2600 рублей на модели Polo, Jetta и Tiguan.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Грандиозная распродажа склада 2016 года выпуска! </span>
+                            </p>
+                            <p>
+                                Такой распродажи у марки Ford в Беларуси не было давно! Автоцентр «Атлант-М Боровая» предлагает автомобили Ford 2016 года
+                                выпуска по беспрецедентно низким ценам.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                </div>
+                <!-- End row  -->
+            </div>
+            <div class="tab-pane fade" id="mazda">
+                <div class="row">
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Идеальный момент для покупки. Распродажа склада Volkswagen. </span>
+                            </p>
+                            <p>
+                                Volkswagen в Беларуси объявляет большую распродажу склада автомобилей 2016 года выпуска! Только в январе действует выгода
+                                до 2600 рублей на модели Polo, Jetta и Tiguan.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Грандиозная распродажа склада 2016 года выпуска! </span>
+                            </p>
+                            <p>
+                                Такой распродажи у марки Ford в Беларуси не было давно! Автоцентр «Атлант-М Боровая» предлагает автомобили Ford 2016 года
+                                выпуска по беспрецедентно низким ценам.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                </div>
+                <!-- End row  -->
+            </div>
+            <div class="tab-pane fade" id="kia">
+                <div class="row">
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Идеальный момент для покупки. Распродажа склада Volkswagen. </span>
+                            </p>
+                            <p>
+                                Volkswagen в Беларуси объявляет большую распродажу склада автомобилей 2016 года выпуска! Только в январе действует выгода
+                                до 2600 рублей на модели Polo, Jetta и Tiguan.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">Грандиозная распродажа склада 2016 года выпуска! </span>
+                            </p>
+                            <p>
+                                Такой распродажи у марки Ford в Беларуси не было давно! Автоцентр «Атлант-М Боровая» предлагает автомобили Ford 2016 года
+                                выпуска по беспрецедентно низким ценам.
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                    <!-- start item  -->
+                    <div class="tab-content-item col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="clearfix">
+                            <div class="pull-center">
+                                <img class="img-responsive" title="item  1" alt="item  1" src="images/item_car.svg">
+                            </div>
+
+                            <p id="item-p">
+                                <span id="item-span">	Финальное предложение года от Mazda </span>
+                            </p>
+                            <p>
+                                Таких цен Вы ждали очень долго! Только до 31 января 2017 года приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+                                привлекательные условия покупки автомобилей Mazda:
+                            </p>
+                            <a href="#" class="btn btn-primary">Подробнее</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- End item  -->
+                </div>
+                <!-- End row  -->
+            </div>
+        </div>
+
+    </div>
+    <div id="footer" class="container-fluid">
+        <div id="main" class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <span>Атлант-М</span>
+                    <p>
+                        Информационно-сервисный портал «Атлант-М Международный автомобильный холдинг» © 2007­-2017 Атлант-М
+                    </p>
+                    <p>
+                        Информация, представленная на сайте не является договором публичной оферты.
+                    </p>
+                </div>
+                <div class="col-md-6 ml-md-auto">
+                    <span>Дилеры</span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#">Атлант-М на Машиностроителей</a>
+                            <a href="#">Атлант-М Сухарево</a>
+                            <a href="#">Атлант-М Уручье</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#">Атлант–М Холпи</a>
+                            <a href="#">Атлант-М на Независимости</a>
+                            <a href="#">Атлант-М Боровая Ford</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p id="under-footer-p">Дизайн и создание сайта - <span>AshwoodCreative</span> © 2017</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <script>
+        $(".dropdown-menu li a").click(function () {
+            $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+            $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+        });
+    </script>
+</body>
+
+</html>
